@@ -13,7 +13,8 @@
     "axe/forms": [
       "default",
       {
-        "select-name": "off"
+        "select-name": "off",
+        "label": "off"
       }
     ],
     "axe/text-alternatives": [
@@ -25,7 +26,10 @@
     "axe/aria": [
       "default",
       {
-        "aria-required-parent": "off"
+        "aria-required-parent": "off",
+        "aria-roles": "off",
+        "aria-input-field-name": "off",
+        "aria-required-children": "off"
       }
     ]
   }
